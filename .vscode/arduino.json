@@ -1,4 +1,4 @@
 {
-    "sketch": "programation.ino",
+    "sketch": "programation\\programation.ino",
     "board": "arduino:avr:uno"
 }
