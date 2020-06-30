@@ -9,7 +9,6 @@
 #define frec_2         13
 #define rx             0   //pin entrada para comunicacion bluetooth
 
-
 int  tiempo=0;
 int  bandera1=0;
 int  bandera2=0;
