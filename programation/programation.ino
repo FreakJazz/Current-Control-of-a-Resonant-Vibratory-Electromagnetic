@@ -20,8 +20,7 @@ long k,l;
 String readString = "";
 LiquidCrystal lcd(12, 11, 10, 9, 8, 4); 
 
-void interrupt()  //LOS CRUCES POR CERO SON TOMADOS POR MEDIO DE UNA INTERRUPCION
-{
+void interrupt()  //zero-cross interrupt detected
   flag1=1;
   count++;
   digitalWrite(frec_1, !digitalRead(frec_1));
